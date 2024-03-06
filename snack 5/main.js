@@ -17,9 +17,9 @@ for (let i = 0; i < biciDaCorsa.length; i++) {
   
   
   let bici= biciDaCorsa[i]
-  
+  let {nome,peso}=bici
 
-  if (bici.peso<biciPiuLeggera.peso) {
+  if (peso<biciPiuLeggera.peso) {
     biciPiuLeggera=biciDaCorsa[i
     ]
   }
