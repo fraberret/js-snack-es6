@@ -21,4 +21,4 @@ zucchine.forEach(zucchina=>{
 
 sum+=zucchina.peso
 })
-console.log(sum);
+console.log(`Il peso totale delle zucchine è di: ${sum} grammi`);
